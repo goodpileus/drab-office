@@ -23,26 +23,26 @@ $.fn.randomize = function() {
 
 $('.drab-slab').randomize();
 
-// var x = 0;
-// var intervalID = setInterval(function () {
-//     $('.drab-slab').randomize();
+var x = 0;
+var intervalID = setInterval(function () {
+    $('.drab-slab').randomize();
 
-//     if (++x === 1) {
-//         window.clearInterval(intervalID);
-//     }
-// }, 200);
+    if (++x === 1) {
+        window.clearInterval(intervalID);
+    }
+}, 200);
 
 $( ".drab-slab" ).on( "click", function() {
-    // window.clearInterval(intervalID);
+    window.clearInterval(intervalID);
 
-    // var x = 0;
-    // var intervalID = setInterval(function () {
-    //     $('.drab-slab').randomize();
+    var x = 0;
+    var intervalID = setInterval(function () {
+        $('.drab-slab').randomize();
         
-    //     if (++x === 2) {
-    //         window.clearInterval(intervalID);
-    //     }
-    // }, 200);
+        if (++x === 2) {
+            window.clearInterval(intervalID);
+        }
+    }, 200);
 
     $('.drab-slab').randomize();
     
