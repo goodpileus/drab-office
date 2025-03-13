@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Luxi Mono';
+  src: url('fonts/LuxiMono-BoldOblique.woff2') format('woff2'),
+      url('fonts/LuxiMono-BoldOblique.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Luxi Mono';
+  src: url('fonts/LuxiMono.woff2') format('woff2'),
+      url('fonts/LuxiMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Luxi Mono';
+  src: url('fonts/LuxiMono-Oblique.woff2') format('woff2'),
+      url('fonts/LuxiMono-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Luxi Mono';
+  src: url('fonts/LuxiMono-Bold.woff2') format('woff2'),
+      url('fonts/LuxiMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+    --color: #ffffff;
+}
+
+::selection,
+::-moz-selection {
+  background: #ffffff;
+}
+
+body {
+    margin:0;
+    padding:20px;
+    font-size: .87rem;
+    color:#896848;
+    background: #e7e1d5;
+    /* font-family: 'Luxi Mono', sans-serif; */
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+
+main {
+  padding-left:20px;
+}
+
+h1 {
+  /* font-size: 110%; */
+  font-size: inherit;
+  font-weight: normal;
+  font-weight: bolder;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+p {
+  max-width: 430px;
+  margin:0;
+  /* margin-bottom: 20px; */
+}
+
+.ind-1 {
+  padding-left:20px;
+}
+
+.ind-2 {
+  padding-left:40px;
+}
+
+a {
+  color: #a07f5d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ECE0C9;
+  background: #896848;
+}
+
+img {
+  max-width: 100%;
+}
+
+.drab-slab {
+  display: flex;
+  flex-wrap: wrap;
+  width:60px;
+  margin-bottom:20px;
+  /* margin-left:20px; */
+}
+
+.drab-slab span {
+  width:20px;
+  height:20px;
+}
+
+@media screen and (max-width:500px) {
+  .drab-slab {
+    /* margin:20px auto; */
+  }
+
+  main {
+    padding:0;
+  }
+
+  h1 {
+    /* text-align: center; */
+  }
+
+  p {
+    /* padding:0 20px;  */
+  }
+}
+
+
+
+
+
