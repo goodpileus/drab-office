@@ -119,6 +119,8 @@ img {
   margin-top:20px;
   margin-left:20px;
   mix-blend-mode: multiply;
+  opacity:0;
+
 }
 
 @media screen and (max-width:500px) {

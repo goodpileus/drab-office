@@ -1,3 +1,8 @@
+$( document ).ready(function() {
+    console.log( "drab breathes :-)" );
+    $('.drab-pool').css('opacity', 1);
+});
+
 //randomize children
 $.fn.randomize = function() {
   this.each(function(){
