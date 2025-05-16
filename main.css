@@ -120,7 +120,6 @@ img {
   margin-left:20px;
   mix-blend-mode: multiply;
   opacity:0;
-
 }
 
 @media screen and (max-width:500px) {
@@ -138,6 +137,10 @@ img {
 
   p {
     /* padding:0 20px;  */
+  }
+
+  .drab-pool {
+    margin-left:0;
   }
 }
 
